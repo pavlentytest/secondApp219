@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.textView.setText(R.string.hello_message);
-        binding.button.setOnClickListener(v -> {
 
-        });
     }
 }
